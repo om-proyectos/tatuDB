@@ -12,10 +12,11 @@
 
 class tatuDB {
 
+	public $version = '1.1.1';
+
 	public $base;
 
 	public $oTatuDB;
-
 
 	public function constructor($motor, $parametros):object{
 
